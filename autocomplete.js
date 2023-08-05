@@ -1173,7 +1173,7 @@ class Autocomplete {
         if (show) {
           this._showSuggestions();
         }
-      })
+      }) 
       .catch((e) => {
         if (e.name === "AbortError") {
           // Ignore the AbortError silently
